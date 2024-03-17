@@ -1,4 +1,4 @@
-# Season 1
+-- Season 1
 
 INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('Great leaders inspire greatness in others.', 1, 1),
@@ -35,7 +35,7 @@ INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('A secret shared is a trust formed.', 1, 22);
 
 
-# Season 2
+-- Season 2
 
 INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('A lesson learned is a lesson earned.', 2, 1),
@@ -60,7 +60,7 @@ INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('Adversity is a friendship’s truest test.', 2, 21),
 ('Revenge is a confession of pain.', 2, 22);
 
-# Season 3
+-- Season 3
 
 INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('Brothers in arms are brothers for life.', 3, 1),
@@ -86,7 +86,7 @@ INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('Without humility, courage is a dangerous game.', 3, 21),
 ('A great student is what the teacher hopes to be.', 3, 22);
 
-# Season 4
+-- Season 4
 
 INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('When destiny calls, the chosen have no choice.', 4, 1),
@@ -112,7 +112,7 @@ INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('A fallen enemy may rise again, but the reconciled one is truly vanquished.', 4, 21),
 ('The enemy of my enemy is my friend.', 4, 22);
 
-# Season 5
+-- Season 5
 
 INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('Strength of character can defeat strength in numbers.', 5, 1),
@@ -136,7 +136,7 @@ INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('Never become desperate enough to trust the untrustworthy.', 5, 19),
 ('Never give up hope, no matter how dark things seem.', 5, 20);
 
-# Season 6
+-- Season 6
 
 INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('The truth about yourself is always the hardest to accept.', 6, 1),
@@ -153,7 +153,7 @@ INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('Death is just the beginning.', 6, 12),
 ('Facing all that you fear will free you from yourself.', 6, 13);
 
-#Season 7
+-- Season 7
 
 INSERT INTO CLONE_WARS_QUOTES (quote, season, chapter) VALUES
 ('Embrace others for their differences, for that makes you whole.', 7, 1),
