@@ -26,6 +26,15 @@ def get_quotes():
     quotes_list = [dict(quote) for quote in quotes]
     return jsonify(quotes_list)
 
+@app.route('/quotes/<int:quote_id>', methods=['GET'])
+def get_id_quote(quote_id):
+    conn = get_db_connection()
+    quote = conn.execute('SELECT * FROM CLONE_WARS_QUOTES WHERE id = ?', (quote_id,)).fetchone()
+    conn.close()
+    if not quote:
+        return jsonify({'error': 'No quotes found'}), 404
+    return jsonify(dict(quote))
+
 @app.route('/quotes/random', methods=['GET'])
 def get_random_quote():
     conn = get_db_connection()

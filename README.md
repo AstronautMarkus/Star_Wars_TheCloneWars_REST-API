@@ -17,6 +17,6 @@ REST API of Star Wars: The Clone Wars (animated series) chapter opening quotes.
 
 # URLs
 
-You can use `/quotes` for the full quotes list or `/quotes/random` for a random list.
+You can use `/quotes` for the full quotes list, `/quotes/{id}` for a quote by the id  or `/quotes/random` for a random list.
 
 ### For now, just that. I hope this API with inspiring phrases is useful to you! Hehe!
