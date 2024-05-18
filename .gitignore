@@ -1,5 +1,6 @@
 # Ignore database
 database.db
+clone_wars_quotes.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
