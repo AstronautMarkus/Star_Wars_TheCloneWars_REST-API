@@ -9,8 +9,8 @@ python3 -m venv "$script_path/venv"
 # Activate the virtual environment (Linux/Unix)
 source "$script_path/venv/bin/activate"
 
-# Install dependencies from the file dependences.txt using pip
-pip install -r "$script_path/dependences.txt"
+# Install dependencies from the file requirements.txt using pip
+pip install -r "$script_path/requirements.txt"
 
 # Deactivate the virtual environment
 deactivate
