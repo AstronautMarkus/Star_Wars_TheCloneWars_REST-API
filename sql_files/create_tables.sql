@@ -1,0 +1,19 @@
+-- Crear la tabla LANGUAGES
+CREATE TABLE IF NOT EXISTS LANGUAGES(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    language TEXT NOT NULL
+);
+
+-- Insertar los lenguajes
+INSERT INTO LANGUAGES (language) VALUES ('english');
+INSERT INTO LANGUAGES (language) VALUES ('spanish');
+
+-- Crear la tabla CLONE_WARS_QUOTES
+CREATE TABLE IF NOT EXISTS CLONE_WARS_QUOTES(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    quote TEXT NOT NULL,
+    season INTEGER NOT NULL,
+    chapter INTEGER NOT NULL,
+    language_id INTEGER,
+    FOREIGN KEY (language_id) REFERENCES LANGUAGES(id)
+);
