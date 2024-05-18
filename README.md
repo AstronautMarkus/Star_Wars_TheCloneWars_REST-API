@@ -37,12 +37,6 @@ REST API of Star Wars: The Clone Wars (animated series) chapter opening quotes.
 
 The requirements needed for this project are found in the file [`requirements.txt`](https://github.com/AstronautMarkus/Star_Wars_TheCloneWars_REST-API/blob/dev/requirements.txt).
 
-
-## License
-
-This project is under the GPL-3.0 license.
-
-
 ## Main Files
 
 - `main.py`: Main file to run the application.
